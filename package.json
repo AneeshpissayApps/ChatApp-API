@@ -1,0 +1,25 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "chatapp-api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AneeshpissayApps/ChatApp-API.git"
+  },
+  "author": "Aneesh Pissay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AneeshpissayApps/ChatApp-API/issues"
+  },
+  "homepage": "https://github.com/AneeshpissayApps/ChatApp-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "socket.io": "^4.5.1"
+  }
+}
